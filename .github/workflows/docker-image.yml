@@ -56,7 +56,7 @@ jobs:
 
               # docker build -t $dir:$VERSION -f $dir/Dockerfile $dir
               docker tag $dir ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO
-              docker push ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO:latest
+              docker push ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO
               # docker push andrezanella/$IMAGE_REPO:latest
             else
               echo "Dockerfile not found in $dir, skipping."
