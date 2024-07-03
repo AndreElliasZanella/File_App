@@ -34,33 +34,29 @@ jobs:
           username: andrezanella
           password: toxkos-nexMab-zyxno7
 
-      - name: Get commit count for versioning
-        id: get-version
-        run: echo "::set-output name=version::$(git rev-list --count HEAD)"
+      - name: Build Docker compose
+        run: docker-compose build
 
-      - name: Build and push Docker images
+      - name: Docker tag
         run: |
-          VERSION="v1.${{ steps.get-version.outputs.version }}"
-          for dir in */ ; do
-            dir=${dir%/}  # Remove trailing slash
-            if [ -f "$dir/Dockerfile" ]; then
-              if [[ ${{ github.ref }} == refs/heads/main ]]; then
-                IMAGE_REPO=file_app/$dir
-              elif [[ ${{ github.ref }} == refs/heads/develop ]]; then
-                IMAGE_REPO=file_app_test/$dir
-              else
-                echo "Unsupported branch. Skipping build."
-                exit 0  # Exit without failure
-              fi
-
-              docker build -t $IMAGE_REPO:$VERSION -f $dir/Dockerfile $dir
-              docker tag $IMAGE_REPO:$VERSION $IMAGE_REPO:latest
-              docker push $IMAGE_REPO:$VERSION
-              docker push $IMAGE_REPO:latest
+          for service in $(docker-compose ps -q); do
+            if [[ ${{ github.ref }} == refs/heads/main ]]; then
+              IMAGE_REPO=file_app
+            elif [[ ${{ github.ref }} == refs/heads/develop ]]; then
+              IMAGE_REPO=file_app_test
             else
-              echo "Dockerfile not found in $dir, skipping."
+              echo "Unsupported branch. Skipping build."
+              exit 0  # Exit without failure
             fi
+            docker tag andrezanella/$service:latest andrezanella/IMAGE_REPO/$service:$GITHUB_SHA
           done
+
+      - name: Docker Push Images
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: andrezanella/IMAGE_REPO/*:$GITHUB_SHA
 
   deploy:
     needs: build
@@ -82,14 +78,5 @@ jobs:
 
       - name: Deploy to environment
         run: |
-          if [[ ${{ github.ref }} == refs/heads/main ]]; then
-            IMAGE_REPO=file_app
-          elif [[ ${{ github.ref }} == refs/heads/develop ]]; then
-            IMAGE_REPO=file_app_test
-          else
-            echo "Unsupported branch. Skipping deploy."
-            exit 0  # Exit without failure
-          fi
-
           docker-compose -f docker-compose.yml pull
           docker-compose -f docker-compose.yml up -d
