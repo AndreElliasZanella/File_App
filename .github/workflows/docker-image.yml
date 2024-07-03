@@ -54,9 +54,9 @@ jobs:
                 exit 0  # Exit without failure
               fi
 
-              # docker build -t $dir
-              docker tag $dir ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO:$VERSION
-              docker push ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO:$VERSION
+              # docker build -t $dir:$VERSION -f $dir/Dockerfile $dir
+              docker tag $dir ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO
+              docker push ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_REPO:latest
               # docker push andrezanella/$IMAGE_REPO:latest
             else
               echo "Dockerfile not found in $dir, skipping."
