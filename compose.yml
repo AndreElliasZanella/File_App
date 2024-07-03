@@ -1,0 +1,100 @@
+version: '3'
+services:
+
+  file_sender:
+    build:
+      context: file_sender
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=dev
+    environment:
+      - NODE_ENV=dev
+      - PORT=8082
+    ports:
+      - "8082:8082"
+    volumes:
+      - ./file_sender:/app
+    command: npm run dev
+
+  file_processor:
+    build:
+      context: file_processor
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=dev
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/files
+      - QUEUE=files
+      - RABBIT_URL=amqp://guest:guest@rabbitmq:5672/
+      - NODE_ENV=dev
+      - PORT=8081
+      - FILE_SENDER_API=http://file_sender:8082/
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./file_processor:/app
+    command: npm run dev
+
+
+#  keycloak:
+#    attach: false
+#    image: quay.io/keycloak/keycloak:21.1.1
+#    environment:
+#      KEYCLOAK_ADMIN: admin
+#      KEYCLOAK_ADMIN_PASSWORD: admin
+#    ports:
+#      - "8080:8080"
+#    command: start-dev
+
+  mongodb:
+    container_name: mongodb_service
+    image: mongo:latest
+    logging:
+      driver: none
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  rabbitmq:
+    image: rabbitmq:management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    volumes:
+      - 'rabbitmq_data:/data'
+      - ./rabbit-mq/init/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+      - ./rabbit-mq/init/definitions.json:/etc/rabbitmq/definitions.json:ro
+    ports:
+      - "5672:5672"
+      - "15672:15672" # Management UI
+
+  file_processor_consumer:
+    build:
+      context: file_processor_consumer
+      dockerfile: Dockerfile
+    environment:
+      - QUEUE=files
+      - RABBIT_URL=amqp://guest:guest@rabbitmq:5672/
+      - FILE_SENDER_API=http://file_sender:8082/
+      - RETRY_TIME=120
+    depends_on:
+      - rabbitmq
+      - file_sender
+    volumes:
+      - ./file_processor_consumer:/app
+
+#  file_processor_app:
+#    build:
+#      context: file_processor_app
+#      dockerfile: Dockerfile
+#    volumes:
+#      - ./file_processor_app:/app
+#    ports:
+#        - "5173:5173"
+#    command: npm run dev
+
+
+volumes:
+  mongo-data:
+  rabbitmq_data:

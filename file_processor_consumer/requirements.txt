@@ -1,0 +1,2 @@
+pika==1.2.0  # AMQP library for Python
+requests==2.26.0  # HTTP library for making requests
