@@ -55,9 +55,9 @@ jobs:
               fi
 
               docker build -t $IMAGE_REPO:$VERSION -f $dir/Dockerfile $dir
-              docker tag $IMAGE_REPO:$VERSION $IMAGE_REPO:latest
-              docker push $IMAGE_REPO:$VERSION
-              docker push $IMAGE_REPO:latest
+              docker tag $IMAGE_REPO:$VERSION andrezanella/$IMAGE_REPO:latest
+              docker push andrezanella/$IMAGE_REPO:$VERSION
+              docker push andrezanella/$IMAGE_REPO:latest
             else
               echo "Dockerfile not found in $dir, skipping."
             fi
