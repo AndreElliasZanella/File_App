@@ -85,14 +85,6 @@ jobs:
 
       - name: Deploy to environment
         run: |
-          if [[ ${{ github.ref }} == refs/heads/main ]]; then
-            IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_MAIN }}
-          elif [[ ${{ github.ref }} == refs/heads/develop ]]; then
-            IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_TEST }}
-          else
-            echo "Unsupported branch. Skipping deploy."
-            exit 0  # Exit without failure
-          fi
 
-          docker-compose -f docker-compose.yml pull
-          docker-compose -f docker-compose.yml up -d
+          docker-compose -f compose.yml pull
+          docker-compose -f compose.yml up -d
