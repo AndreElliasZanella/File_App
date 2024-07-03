@@ -1,0 +1,24 @@
+{
+  "modules" : {
+    "system": [
+      "reports",
+      "users",
+      "person"
+    ],
+    "accounting": [
+      "balance",
+      "incomes",
+      "banks"
+    ],
+    "spaces": [
+      "activities",
+      "equipments",
+      "schedule",
+      "memberships",
+      "appointments",
+      "frequencies"
+    ],
+    "sells": {},
+    "products": {}
+  }
+}

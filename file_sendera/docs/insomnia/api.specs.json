@@ -1,0 +1,86 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-05-07T00:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2021.5.3",
+  "resources": [
+    {
+      "_id": "request-get",
+      "parentId": null,
+      "modified": 1620389404460,
+      "name": "GET File",
+      "description": "",
+      "method": "GET",
+      "url": "http://localhost:3000/",
+      "parameters": [
+        {
+          "name": "fileKey",
+          "value": "file path\/name",
+          "enabled": true
+        }
+      ],
+      "headers": [],
+      "authentication": {
+      },
+      "body": {
+      },
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "createdAt": 1620389404460,
+      "updatedAt": 1620389404460
+    },
+    {
+      "_id": "request-put",
+      "parentId": null,
+      "modified": 1620389534813,
+      "name": "PUT File",
+      "description": "",
+      "method": "PUT",
+      "url": "http://localhost:3000/",
+      "parameters": [],
+      "headers": [],
+      "authentication": {
+      },
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\"fileKey\": \"file path\/name\", \"fileData\": \"base 64 encoded file\"}"
+      },
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "createdAt": 1620389534813,
+      "updatedAt": 1620389534813
+    },
+    {
+      "_id": "request-delete",
+      "parentId": null,
+      "modified": 1620389607383,
+      "name": "DELETE File",
+      "description": "",
+      "method": "DELETE",
+      "url": "http://localhost:3000/",
+      "parameters": [
+        {
+          "name": "fileKey",
+          "value": "file path\/name",
+          "enabled": true
+        }
+      ],
+      "headers": [],
+      "authentication": {
+      },
+      "body": {
+      },
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "createdAt": 1620389607383,
+      "updatedAt": 1620389607383
+    }
+  ]
+}
+
