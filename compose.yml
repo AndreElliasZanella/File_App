@@ -83,15 +83,15 @@ services:
     volumes:
       - ./file_processor_consumer:/app
 
-  file_processor_app:
-    build:
-      context: ./file_processor_app
-      dockerfile: Dockerfile
-    volumes:
-      - ./file_processor_app:/app
-    ports:
-        - "5173:5173"
-    command: npm run dev
+  # file_processor_app:
+  #   build:
+  #     context: ./file_processor_app
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ./file_processor_app:/app
+  #   ports:
+  #       - "5173:5173"
+  #   command: npm run dev
 
 
 volumes:
