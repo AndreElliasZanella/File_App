@@ -46,18 +46,18 @@ jobs:
           for dir in "${directories[@]}"; do
             if [ -f "$dir/Dockerfile" ]; then
               if [[ ${{ github.ref }} == refs/heads/main ]]; then
-                IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_MAIN }}/$dir
+                IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_MAIN }}
               elif [[ ${{ github.ref }} == refs/heads/develop ]]; then
-                IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_TEST }}/$dir
+                IMAGE_REPO=${{ secrets.DOCKER_HUB_REPO_TEST }}
               else
                 echo "Unsupported branch. Skipping build."
                 exit 0  # Exit without failure
               fi
 
-              docker build -t $IMAGE_REPO:$VERSION -f $dir/Dockerfile $dir
-              docker tag $IMAGE_REPO:$VERSION andrezanella/$IMAGE_REPO:latest
-              docker push andrezanella/$IMAGE_REPO:$VERSION
-              docker push andrezanella/$IMAGE_REPO:latest
+              docker build -t $dir
+              docker tag $dir ${{ secrets.DOCKER_HUB_USERNAME }}/IMAGE_REPO:$VERSION
+              docker push ${{ secrets.DOCKER_HUB_USERNAME }}/IMAGE_REPO:$VERSION
+              # docker push andrezanella/$IMAGE_REPO:latest
             else
               echo "Dockerfile not found in $dir, skipping."
             fi
