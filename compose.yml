@@ -1,23 +1,23 @@
 services:
 
-  # file_sender:
-  #   build:
-  #     context: file_sender
-  #     dockerfile: Dockerfile
-  #     args:
-  #       - NODE_ENV=dev
-  #   environment:
-  #     - NODE_ENV=dev
-  #     - PORT=8082
-  #   ports:
-  #     - "8082:8082"
-  #   volumes:
-  #     - ./file_sender:/app
-  #   command: npm run dev
+  file_sender:
+    build:
+      context: ./file_sender
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=dev
+    environment:
+      - NODE_ENV=dev
+      - PORT=8082
+    ports:
+      - "8082:8082"
+    volumes:
+      - ./file_sender:/app
+    command: npm run dev
 
   file_processor:
     build:
-      context: file_processor
+      context: ./file_processor
       dockerfile: Dockerfile
       args:
         - NODE_ENV=dev
@@ -70,7 +70,7 @@ services:
 
   file_processor_consumer:
     build:
-      context: file_processor_consumer
+      context: ./file_processor_consumer
       dockerfile: Dockerfile
     environment:
       - QUEUE=files
