@@ -34,8 +34,8 @@ jobs:
           username: andrezanella
           password: toxkos-nexMab-zyxno7
 
-      - name: Build Docker compose
-        run: docker-compose build
+      # - name: Build Docker compose
+      #   run: docker-compose build
 
       - name: Docker tag
         run: |
