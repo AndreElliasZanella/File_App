@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "types": ["reflect-metadata"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "base": "src",
+  "paths": {
+    "@handlers/*": ["handlers/*"]
+  },
+  "lib": ["es2015"]
+}

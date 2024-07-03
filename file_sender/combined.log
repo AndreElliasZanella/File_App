@@ -1,0 +1,218 @@
+{"level":"info","message":"TESTE","timestamp":"2024-05-05T23:28:30.109Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-05T23:33:28.489Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-05T23:33:52.409Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-12T17:27:53.624Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-12T17:29:24.748Z"}
+{"level":"error","message":"getting file of key undefined","timestamp":"2024-05-12T17:31:08.362Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-12T17:31:08.369Z"}
+{"level":"error","message":"Error getting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined","timestamp":"2024-05-12T17:33:51.261Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open 'C:\\tmp\\teste'","timestamp":"2024-05-12T17:39:43.323Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-05-12T18:40:14.265Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2024-05-12T18:47:05.810Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2024-05-12T18:48:45.028Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2024-05-12T18:50:39.518Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2024-05-12T19:07:36.577Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2024-05-12T19:08:27.590Z"}
+{"level":"error","message":"Error putting file: Error: ENOENT: no such file or directory, open 'C:\\tmp\\path\\to\\file.extension'","timestamp":"2024-05-12T19:09:47.191Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T19:43:03.739Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T19:44:48.412Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T19:44:54.153Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T19:55:15.512Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T19:56:51.710Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T20:03:33.819Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/path/to/file.png'","timestamp":"2024-05-12T20:03:41.010Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-05-12T20:04:07.654Z"}
+{"level":"error","message":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"string\",\n    \"path\": [\n      \"h\"\n    ],\n    \"message\": \"Expected number, received string\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"string\",\n    \"path\": [\n      \"w\"\n    ],\n    \"message\": \"Expected number, received string\"\n  }\n]","timestamp":"2024-05-30T22:05:04.324Z"}
+{"level":"error","message":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"fileKey\"\n    ],\n    \"message\": \"Required\"\n  }\n]","timestamp":"2024-06-15T12:39:10.678Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/path/to/file.png'","timestamp":"2024-06-15T12:40:26.211Z"}
+{"level":"error","message":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"fileKey\"\n    ],\n    \"message\": \"Required\"\n  }\n]","timestamp":"2024-06-15T12:47:59.308Z"}
+{"level":"error","message":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"fileKey\"\n    ],\n    \"message\": \"Required\"\n  }\n]","timestamp":"2024-06-15T12:51:40.527Z"}
+{"level":"error","message":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"fileKey\"\n    ],\n    \"message\": \"Required\"\n  }\n]","timestamp":"2024-06-15T12:54:40.243Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T14:11:37.566Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T14:15:31.186Z"}
+{"level":"error","message":"Error putting file: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T14:19:07.474Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T14:24:16.631Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T14:24:31.566Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T14:27:40.125Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T14:29:09.112Z"}
+{"level":"error","message":"Field value too long","timestamp":"2024-06-15T14:59:09.167Z"}
+{"level":"error","message":"Field value too long","timestamp":"2024-06-15T15:01:31.102Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'buffer')","timestamp":"2024-06-15T15:08:50.457Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'buffer')","timestamp":"2024-06-15T15:10:17.773Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'buffer')","timestamp":"2024-06-15T15:32:43.349Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example.png'","timestamp":"2024-06-15T15:47:47.100Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T15:57:05.471Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received [Object: null prototype]","timestamp":"2024-06-15T16:02:20.603Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'buffer')","timestamp":"2024-06-15T16:04:11.272Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T16:06:45.039Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T16:09:29.657Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T16:11:31.799Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T16:32:46.908Z"}
+{"level":"error","message":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined","timestamp":"2024-06-15T16:36:39.605Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:12:19.560Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:12:19.622Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:12:19.629Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:12:19.636Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:13:02.567Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:13:02.633Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:25:52.499Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:25:52.599Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:25:52.631Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:25:52.702Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:26:34.243Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:26:34.257Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:26:37.243Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:26:37.261Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:26:37.271Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:26:37.278Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:26:37.689Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:26:37.697Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example.png'","timestamp":"2024-06-15T17:31:20.278Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example1.png'","timestamp":"2024-06-15T17:31:20.320Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example3.png'","timestamp":"2024-06-15T17:31:20.330Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example2.png'","timestamp":"2024-06-15T17:31:20.338Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example4.png'","timestamp":"2024-06-15T17:31:20.481Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:31:20.521Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:31:20.526Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:31:20.534Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:31:20.538Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:31:21.884Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:31:21.915Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example1.png'","timestamp":"2024-06-15T17:36:38.626Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example.png'","timestamp":"2024-06-15T17:36:38.646Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example2.png'","timestamp":"2024-06-15T17:36:38.692Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example4.png'","timestamp":"2024-06-15T17:36:38.721Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example3.png'","timestamp":"2024-06-15T17:36:38.729Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:36:38.785Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:36:38.788Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:36:38.798Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:36:38.803Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:36:39.991Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:36:39.997Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/Log.png'","timestamp":"2024-06-15T17:36:41.611Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:36:42.422Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:36:43.531Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/routes2.png'","timestamp":"2024-06-15T17:36:44.051Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:36:44.583Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example.png'","timestamp":"2024-06-15T17:36:45.032Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example1.png'","timestamp":"2024-06-15T17:36:45.574Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example2.png'","timestamp":"2024-06-15T17:36:45.920Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example3.png'","timestamp":"2024-06-15T17:36:46.303Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example4.png'","timestamp":"2024-06-15T17:36:46.761Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example5.png'","timestamp":"2024-06-15T17:36:47.477Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:36:48.089Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/Logger.png'","timestamp":"2024-06-15T17:36:55.108Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/tmp/example6.png'","timestamp":"2024-06-15T17:36:56.108Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:53:29.613Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:55:43.369Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:12.035Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:15.413Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:15.551Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:15.713Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:15.850Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:16.014Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:16.157Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:16.735Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:26.487Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:30.123Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:32.078Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:32.782Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:34.023Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:34.536Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:35.355Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:35.865Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/undefined'","timestamp":"2024-06-15T17:56:36.339Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Logger.png'","timestamp":"2024-06-15T18:00:57.565Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_inventory.png'","timestamp":"2024-06-15T18:00:58.238Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Logger.png'","timestamp":"2024-06-15T18:01:01.082Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_inventory.png'","timestamp":"2024-06-15T18:01:01.681Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/Logger.png'","timestamp":"2024-06-15T18:01:02.909Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_inventory.png'","timestamp":"2024-06-15T18:01:02.991Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/GameScreen_inventory.png'","timestamp":"2024-06-15T18:01:03.757Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:06:54.532Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:07:10.384Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:07:39.077Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:07:57.953Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:19.121Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:35.370Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:35.513Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:35.876Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:36.140Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:36.177Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:08:36.321Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:10.218Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:13.397Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:13.954Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:14.683Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:14.938Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:15.200Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:15.299Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:15.516Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:16.599Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:17.447Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:17.766Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:18.033Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:18.317Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:18.583Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:18.900Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:19.010Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:19.232Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:36.398Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:09:49.959Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:10:02.620Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:10:45.954Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:11:50.413Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:11:50.519Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:11:50.523Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:12:11.159Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:13:05.489Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:13:48.028Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/code.png'","timestamp":"2024-06-15T18:13:48.290Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:16:32.075Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:16:32.123Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:16:32.132Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:17:12.985Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:17:12.997Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:17:13.034Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:19:57.143Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:51.286Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:51.301Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:51.353Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:56.743Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:56.762Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:56.777Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:57.846Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:58.117Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:58.292Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:58.683Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:58.733Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:20:58.762Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:21:37.427Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Log.png'","timestamp":"2024-06-15T21:21:39.477Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_menu_selection.png'","timestamp":"2024-06-15T21:21:51.016Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/pngwing.com.png'","timestamp":"2024-06-15T21:22:32.056Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/tmp/Logo.png'","timestamp":"2024-06-15T21:23:13.695Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Logo.png'","timestamp":"2024-06-15T21:23:39.754Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Logo.png'","timestamp":"2024-06-15T21:24:04.080Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:03:45.553Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:03:46.772Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:11:10.793Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:11:49.436Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:04.221Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:05.127Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:05.315Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:12.366Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:16.327Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:21.973Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:23.617Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:27.143Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:30.205Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/GameScreen_main_view.png'","timestamp":"2024-06-17T01:14:32.229Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:14:47.767Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:15:55.814Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:17:18.367Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:18:39.738Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:21:35.887Z"}
+{"level":"error","message":"Unexpected field","timestamp":"2024-06-17T01:29:33.873Z"}
+{"level":"error","message":"Error getting file: Error: ENOENT: no such file or directory, open '/tmp/Foto_Oficial_Lula_BG_Branco-3.jpg'","timestamp":"2024-06-17T01:41:09.196Z"}
+{"level":"error","message":"Error deleting file: Error: ENOENT: no such file or directory, unlink '/tmp/Foto_Oficial_Lula_BG_Branco-3.jpg'","timestamp":"2024-06-17T01:41:25.994Z"}
